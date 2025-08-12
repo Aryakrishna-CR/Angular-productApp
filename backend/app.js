@@ -16,7 +16,7 @@ mongoose
     useNewUrlParser: true,
     useCreateIndex: true
   })
-  .then(() => console.log("DB Connected"));
+  .then(() => console.log("DB Connected:test"));
 
 
 app.use("/api/products",productRoutes);
